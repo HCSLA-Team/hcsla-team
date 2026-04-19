@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python experiments/run_comparison.py)",
+      "Bash(python experiments/analyze_results.py)",
+      "Bash(python experiments/easy_comparison.py)",
+      "Bash(python -c \"import yaml\")",
+      "Bash(pip install:*)"
+    ]
+  }
+}
